@@ -71,7 +71,7 @@ void wish(vector<T> banner, vector<T> FourStars, vector<T> FourWepons, vector<T>
     bool fiveFifty = 0;
     bool fourFifty = 0;
     while (true) {
-        cout << endl << "Please enter the amount of wishes you would like to do. You can perform up to 90 pulls at a time. To exit, enter 0." << endl;
+        cout << endl << "Please enter the amount of wishes you would like to do. You can perform up to 90 pulls at ` time. To exit, enter 0." << endl;
         wishes = GetIntNum(0, 90);
         if (wishes == 0) {
             break;
@@ -235,23 +235,6 @@ void wish(vector<T> banner, vector<T> FourStars, vector<T> FourWepons, vector<T>
                 }
             }
         }
-        // for (int i = 0; i < account.size(); i++) {
-        //     if (account.at(i).getStars()) {
-        //         cout << "C" << account.at(i).getCons() << " " << account.at(i).getName() << endl;
-        //     }
-        // }
-        // cout << endl;
-        // for (int i = 0; i < account.size(); i++) {
-        //     if (!account.at(i).getStars() && account.at(i).getType()) {
-        //         cout << "C" << account.at(i).getCons() << " " << account.at(i).getName() << endl;
-        //     }
-        // }
-        // cout << endl;
-        // for (int i = 0; i < account.size(); i++) {
-        //     if ((!account.at(i).getStars() && !account.at(i).getType())) {
-        //         cout << "R" << account.at(i).getCons() + 1 << " " << account.at(i).getName() << endl;
-        //     }
-        // }
     }
 }
 
